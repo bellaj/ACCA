@@ -1,0 +1,16 @@
+server:
+    baseurl: http://localhost:5000
+    ip: 0.0.0.0
+    port: 5000
+
+apiserver:
+    hostname: ca.adito.dev
+    port: 8080
+    publicport: 8080
+    tls: false
+
+csr_defaults:
+    country: DE
+    state: Bavaria
+    locality: Geisenhausen
+    organization: ADITO Software GmbH
